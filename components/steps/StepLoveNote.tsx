@@ -69,7 +69,7 @@ export default function StepLoveNote({ message, from, onNext }: Props) {
             className="mt-5 pt-4 border-t border-rose-100 flex justify-end transition-all duration-600"
             style={{ opacity: sigVis ? 1 : 0, transform: sigVis ? "translateY(0)" : "translateY(8px)" }}
           >
-            <p className="text-rose-400 text-[13px] font-semibold">— dengan sayang, {from} ❤️</p>
+            <p className="text-rose-400 text-[13px] font-semibold">— with love, {from} ❤️</p>
           </div>
         </div>
 

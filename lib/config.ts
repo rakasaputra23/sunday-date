@@ -14,10 +14,10 @@ export const siteConfig = {
   siteUrl: "https://sunday-date-raka-rara.vercel.app",
 
   loveNote: {
-    message:
-      "Tulis pesanmu yang spesial untuk Rara di sini. Ceritakan betapa berartinya hari ini bagimu, dan kenapa kamu bersyukur punya dia.",
-    from: "Raka",
-  },
+  message:
+    "anw uda 3 bulan ya raa ini, aku bersyukur bnget bsa dket sm rara. pokonya i'll always be here ya raa, no matter what happen i'm all ears buat rara. anytime, anywhere and anything. i love uu so much as always ya raa walaupun cuman just friend hahahah",
+  from: "Raka",
+},
 
   schedule: {
     part1: {
@@ -27,14 +27,14 @@ export const siteConfig = {
       items: [
         {
           time: "07.00",
-          title: "Aku jemput kamu!",
-          desc: "Siap-siap ya, cantik — aku jemput jam 7 pagi. Don't be late!",
+          title: "aku jemput kamu yaa raa",
+          desc: "siap-siap yaa, aku udah otw! nnti aku tunggu didepan 🫣",
           emoji: "🚗",
         },
         {
-          time: "07.15 – 08.30",
-          title: "Jalan santai di bantaran",
-          desc: "Jalan-jalan pagi sambil beli jajan dan sarapan. Fresh air, happy mood!",
+          time: "07.15 – 10.30",
+          title: "jalan-jalan santai di bantaran",
+          desc: "jalan-jalan pagi sambil beli jajan sama sarapan. fresh air, happy mood!",
           emoji: "🌿",
         },
       ],
@@ -46,39 +46,39 @@ export const siteConfig = {
       items: [
         {
           time: "14.30",
-          title: "Aku jemput kamu lagi!",
-          desc: "Siap-siap lagi ya — sesi sore dimulai sekarang.",
+          title: "aku jemput kamu lagi yaa raa",
+          desc: "sesi sore dimulai! siap-siap lagi yaa 🥰",
           emoji: "🚗",
         },
         {
           time: "14.50 – 16.42",
-          title: "Movie time!",
-          desc: "Nonton film di bioskop. Popcorn wajib hukumnya.",
+          title: "movie time!",
+          desc: "di bioskop nonton film ini raa",
           emoji: "🎬",
         },
         {
           time: "16.42 – 18.15",
-          title: "Jalan-jalan di mall",
-          desc: "Muter-muter santai, mampir ke Gramedia juga buat kamu.",
+          title: "jalan-jalan santai di mall",
+          desc: "muter-muter santai, sambil mampir ke gramed juga buat kamu 📚",
           emoji: "🛍️",
         },
         {
           time: "18.15 – 21.00",
-          title: "Dinner time!",
-          desc: "Cari cafe atau tempat makan yang enak. Yang penting bareng kamu!",
+          title: "dinner time",
+          desc: "cari cafe atau tempat maem yg enak. yang penting bareng kamu!",
           emoji: "🍽️",
         },
         {
           time: "21.00",
-          title: "Otw pulang",
-          desc: "Biar kamu ga kemaleman dan ga kecapean. Selamat istirahat ya!",
+          title: "kita otw pulang",
+          desc: "biar kamu ga kemaleman dan ga kecapean lagi kaya hari inii 🌙",
           emoji: "🌙",
         },
       ],
     },
   },
 
-  footerNote: "Pokonya besok fleksibel aja ya, yang penting kamu happy 💕",
+  footerNote: "pokonya besok fleksibel aja yaa raa, yang penting kamu happy. see u tomorrow cantikk! 💕",
 }
 
 export type ScheduleItem = {

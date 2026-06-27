@@ -51,8 +51,8 @@ export default function StepOpening({ name2, onNext }: Props) {
         {/* Tagline */}
         <div style={vis(2)} className="mt-7">
           <p className="text-rose-100/60 text-[17px] leading-[1.7] font-light">
-            ada sesuatu yang spesial<br />
-            <span className="text-rose-300/90 font-medium">untukmu besok</span> 🌹
+            got something special<br />
+            <span className="text-rose-300/90 font-medium">for u tomorrow</span> 🌹
           </p>
         </div>
 

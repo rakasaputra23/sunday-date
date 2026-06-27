@@ -4,9 +4,14 @@ import { useCallback, useEffect, useRef, useState } from "react"
 type Props = { name1: string; name2: string; onAccept: () => void }
 
 const FLEE = [
-  "Kemana kamu?? 😭","Jangan kabur dong!","Ayo dong... 🥺",
-  "Masa iya nggak mau?","Tenang, aku baik kok!","Oke oke aku minta maaf 😢",
-  "Plisss... 🙏","Aduh capek ngejar kamu 😤",
+  "mau kemana raraa",
+  "jangan kabur raa",
+  "rara mau kan, please ya raa",
+  "masa gamau si raa",
+  "i be ur good boy i promise",
+  "im so soryy ya ra okay",
+  "please raaa clicked it",
+  "cape ngejar raraa",
 ]
 
 export default function StepQuestion({ name1, name2, onAccept }: Props) {
@@ -50,7 +55,7 @@ export default function StepQuestion({ name1, name2, onAccept }: Props) {
           dari {name1}
         </p>
         <h2 className="font-playfair text-[38px] leading-[1.2] font-bold text-[#130608] mb-4">
-          Mau nggak<br />jalan bareng aku?
+          mau ga <br />jalan bareng aku?
         </h2>
         <p className="text-gray-400 text-[14px] mb-10">
           {name2}, kamu mau kan? 🥺
@@ -84,7 +89,7 @@ export default function StepQuestion({ name1, name2, onAccept }: Props) {
             transition: "transform 0.22s cubic-bezier(0.22,1,0.36,1)",
           }}
         >
-          Nggak mau 🙅‍♀️
+          gamau 🙅‍♀️
         </button>
       </div>
 
